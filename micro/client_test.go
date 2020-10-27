@@ -10,12 +10,13 @@ import (
 	"github.com/alibaba/sentinel-golang/core/base"
 	"github.com/alibaba/sentinel-golang/core/flow"
 	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/tests/adapter/micro/proto"
 	"github.com/alibaba/sentinel-golang/util"
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/client/selector"
 	"github.com/micro/go-micro/v2/registry/memory"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sentinel-group/sentinel-go-adapters/micro/test"
 )
 
 func TestClientLimiter(t *testing.T) {
