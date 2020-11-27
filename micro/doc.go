@@ -4,7 +4,7 @@ This package provides Sentinel integration for go-micro.
 For server side, users may append a Sentinel handler wrapper to go-micro service, like:
 
 		import (
-			sentinelPlugin "github.com/alibaba/sentinel-golang/adapter/micro"
+			sentinelPlugin "github.com/sentinel-group/sentinel-go-adapters/micro"
 		)
 
 		// Append a Sentinel handler wrapper.
