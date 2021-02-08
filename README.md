@@ -9,3 +9,4 @@ Currently we provide integrations for:
 - [go-micro](./micro)
 - [echo](./echo)
 - [dubbo-go](https://github.com/apache/dubbo-go/blob/master/filter/filter_impl/sentinel_filter.go)
+- [gear]('./gear')
